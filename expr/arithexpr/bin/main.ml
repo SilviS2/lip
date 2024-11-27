@@ -1,4 +1,4 @@
-open ArithexprLib.Main
+open Arithexpr.Main
   
 (* read file, and output it to a string *)
 
