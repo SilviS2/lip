@@ -1,4 +1,4 @@
-open SarithexprLib.Main
+open Sarithexpr.Main
 
 type wexprval = exprtype option
 
