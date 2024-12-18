@@ -1,4 +1,4 @@
-(lang dune 2.9)
+(lang dune 3.17)
 
 (name blocks)
 
@@ -7,9 +7,9 @@
 (source
  (github username/reponame))
 
-(authors "Author Name")
+(authors "Author Name <author@example.com>")
 
-(maintainers "Maintainer Name")
+(maintainers "Maintainer Name <maintainer@example.com>")
 
 (license LICENSE)
 
@@ -19,10 +19,9 @@
  (name blocks)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune)
+ (depends ocaml)
  (tags
-  (topics "to describe" your project)))
+  ("add topics" "to describe" your project)))
 
+; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
 (using menhir 2.1)
-
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project

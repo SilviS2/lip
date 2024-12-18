@@ -25,4 +25,4 @@ type cmd =
   | If of expr * cmd * cmd
   | While of expr * cmd
   | Decl of decl list * cmd
-  | Block of cmd (* Runtime only! *)
+  | Block of cmd
